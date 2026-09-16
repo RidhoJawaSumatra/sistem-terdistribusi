@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal - Website Dummy</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        nav {
+            background: #2563eb;
+            padding: 15px 30px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            color: #2563eb;
+            margin-bottom: 25px;
+        }
+
+        .table-wrapper {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            overflow-x: auto;
+            box-shadow: 0 3px 10px rgba(0,0,0,.08);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #2563eb;
+            color: white;
+            padding: 14px;
+            text-align: left;
+        }
+
+        td {
+            padding: 14px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background: #f1f5f9;
+        }
+
+        .status {
+            background: #dcfce7;
+            color: #166534;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            text-align: center;
+            background: #1e293b;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="profil.html">Profil</a>
+        <a href="jadwal.html">Jadwal</a>
+    </nav>
+
+    <main class="container">
+        <h1>Jadwal Kegiatan</h1>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Hari</th>
+                        <th>Tanggal</th>
+                        <th>Kegiatan</th>
+                        <th>Waktu</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Senin</td>
+                        <td>21 September 2026</td>
+                        <td>Rapat Mingguan</td>
+                        <td>08:00 - 09:30</td>
+                        <td><span class="status">Terjadwal</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Selasa</td>
+                        <td>22 September 2026</td>
+                        <td>Pelatihan</td>
+                        <td>10:00 - 12:00</td>
+                        <td><span class="status">Terjadwal</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Rabu</td>
+                        <td>23 September 2026</td>
+                        <td>Presentasi Proyek</td>
+                        <td>13:00 - 15:00</td>
+                        <td><span class="status">Terjadwal</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>Kamis</td>
+                        <td>24 September 2026</td>
+                        <td>Evaluasi</td>
+                        <td>09:00 - 11:00</td>
+                        <td><span class="status">Terjadwal</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2026 Website Dummy
+    </footer>
+
+</body>
+</html>
